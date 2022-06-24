@@ -132,7 +132,15 @@ int main(int arc, char* argv[]) {
 
     fseek(w, sizeof(File.bfOffBits), SEEK_SET);
 
-    
+    int bmpImg;
+    for (int i = File.bfOffBits; i < File.bfSize; i++)
+    {
+        fseek(f, i, SEEK_SET);
+        fseek(w, i, SEEK_SET);
+        fread(&bmpImg, 3, 1, f);
+        bmpImg = INT_MAX - bmpImg; //Tworzymy negatyw
+        fwrite(&bmpImg, 3, 1, w);
+    }
 
     printf("\n");
     fclose(f);
