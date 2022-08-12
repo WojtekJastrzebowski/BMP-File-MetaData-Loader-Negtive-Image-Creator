@@ -1,11 +1,11 @@
-Napisz program wczytuj¹cy meta dane pliku test.bmp
+Write a program that loads the meta data of the file test.bmp
 
-Wczytane dane nale¿y wydrukowaæ w konsoli. 
+Print the loaded data in the console. 
 
-(Zapoznaj siê ze struktur¹ pliku BMP : https://pl.wikipedia.org/wiki/Windows_Bitmap )
+(Familiarize yourself with the structure of the BMP file : https://pl.wikipedia.org/wiki/Windows_Bitmap )
 
 
 
-Na ocenê 5: Program tworzy negatyw obrazu
+For a grade of 5: The program creates a negative image
 
-Jako rozwi¹zanie nale¿y wstawiæ link do w³asnego repozytorium. 
+As a solution, insert a link to your own repository. 
